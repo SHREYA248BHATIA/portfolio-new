@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "A software developer who loves to take on new projects that challenges her analytical and technological capacities.",
   resumeLink:
-    "https://drive.google.com/file/d/1Nc5yuLlUlUQGVXsS_zrJyrV_Ua-3f8Jg/view?usp=drive_linkhttps://drive.google.com/file/d/1Nc5yuLlUlUQGVXsS_zrJyrV_Ua-3f8Jg/view?usp=sharing",
+    "https://drive.google.com/file/d/1aBVSOCjHS6SYn2rYmuU9NpzhWP6skgFk/view?usp=sharing",
   portfolio_repository: "https://github.com/SHREYA248BHATIA",
 };
 
@@ -79,7 +79,7 @@ const skills = {
         },
         {
           skillName: "React Native",
-          fontAwesomeClassname: "simple-icons:react",
+          fontAwesomeClassname: "tabler:brand-react-native",
           style: {
             color: "#61DAFB",
           },
@@ -266,7 +266,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "84%",
+      progressPercentage: "90%",
     },
   ],
 };
@@ -278,6 +278,10 @@ const sLanguage = {
     {
       Stack: "React",
       progressPercentage: "90%",
+    },
+    {
+      Stack: "React Native",
+      progressPercentage: "75%",
     },
     {
       Stack: "NextJs",
@@ -394,16 +398,7 @@ const tools = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/tasin95",
-    },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -411,8 +406,8 @@ const degrees = {
     {
       title: "University Institute of Engineering and Technology, Chandigarh",
       subtitle: "B.E. in Information Technology",
-      logo_path: "aust_logo.png",
-      alt_name: "IIITDM Kurnool",
+      logo_path: "uiet_logo.png",
+      alt_name: "UIET Chandigarh",
       duration: "August 2019 - July 2023",
       cgpa: "9.17 / 10.00",
       descriptions: [
@@ -432,7 +427,7 @@ const certifications = {
     {
       title: "Security training part-3",
       subtitle: "infosecIQ",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://drive.google.com/file/d/1bQpGENoBA42FHhS9esQxPEO44qwwZS_w/view?usp=drive_link",
       alt_name: "New Zealand",
@@ -441,7 +436,7 @@ const certifications = {
     {
       title: "Security training part 2",
       subtitle: "infosecIQ",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://drive.google.com/file/d/1mwUhup5AY1fnnLMhm1GVkCg69wR77cfT/view?usp=sharing",
       alt_name: "Michigan University",
@@ -450,7 +445,7 @@ const certifications = {
     {
       title: "Security training part 1",
       subtitle: "infosecIQ",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://drive.google.com/file/d/1R2sfumf2JROAnHmwhYC7IZV9s_RF7q0i/view?usp=sharing",
       alt_name: "Michigan University",
@@ -460,7 +455,7 @@ const certifications = {
     {
       title: "Modern React Bootcamp (Hooks, Context, NextJS, Router)",
       subtitle: "Udemy",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://www.udemy.com/certificate/UC-8837d13a-5b16-49a4-ae73-dd3be124b511/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
       alt_name: "Pluralsight",
@@ -469,7 +464,7 @@ const certifications = {
     {
       title: "PhonePe Tech Scholars Program Awards",
       subtitle: "Crio.Do",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://drive.google.com/file/d/15a0WLg7_OPWDHA6L_MuPka1jupCMhQvg/view?usp=share_link",
       alt_name: "Pluralsight.",
@@ -478,7 +473,7 @@ const certifications = {
     {
       title: "PhonePe Tech Scholars Program Certificate",
       subtitle: "Crio.Do",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://drive.google.com/file/d/1RRFUNSh9Ipzr2wgY-3YlUwbbpHo1ilGM/view?usp=share_link",
       alt_name: "Pluralsight",
@@ -487,7 +482,7 @@ const certifications = {
     {
       title: "FullStack Development internship",
       subtitle: "Panjab University",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://drive.google.com/file/d/1Lft5SyawivIYDJHK_VCzKgyKYElFhCGh/view?usp=share_link",
       alt_name: "Pluralsight.",
@@ -496,7 +491,7 @@ const certifications = {
     {
       title: "SQL",
       subtitle: "HackerRank",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link: "https://www.hackerrank.com/certificates/a8e1e2f87059",
       alt_name: "Pluralsight.",
       color_code: "#000000",
@@ -504,7 +499,7 @@ const certifications = {
     {
       title: "Frontend Web Development Intern",
       subtitle: "Crudcook",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://drive.google.com/file/d/1FJtAc_9j_bJRn0BOZ9XCiOHSBMruOJQw/view?usp=share_link",
       alt_name: "Pluralsight.",
@@ -513,7 +508,7 @@ const certifications = {
     {
       title: "Complete 2022 Web development Bootcamp",
       subtitle: "Udemy",
-      logo_path: "pluralsight_logo.png",
+      logo_path: "certificate_badge.svg",
       certificate_link:
         "https://www.udemy.com/certificate/UC-f2a65b4d-817c-49bc-99e4-8aae3ff6737d/",
       alt_name: "Pluralsight.",
@@ -527,7 +522,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Problem solving",
   description:
-    "As a software developer with experience of 2.5 years, I am passionate about creating innovative solutions to complex problems. I have tackled over 900 data structure and algorithm problems across multiple platforms. My knowledge in data structures, algorithms, and OOPs is extensive.",
+    "As a software developer with experience of 3 years, I am passionate about creating innovative solutions to complex problems. I have tackled over 1000 data structure and algorithm problems across multiple platforms. My knowledge in data structures, algorithms, and OOPs is extensive.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -535,16 +530,31 @@ const experience = {
       experiences: [
         {
           title: "Software Development Engineer 2",
+          company: "Carnera Technologies",
+          company_url: "https://getcarnera.com",
+          logo_path: "carnera_logo.png",
+          duration: "June 2025-Present",
+          location: "Hyderabad (On site)",
+          description: "",
+          features: [
+            "- Architected a task & content management platform using React, shadcn/ui, @dnd-kit/core, and Docker, implementing drag-and-drop workflows and real-time state management; integrated AI-assisted development with Claude, Cursor, and GitHub Copilot, using structured prompting to accelerate the development lifecycle by ~35% and streamline implementation, debugging, and refactoring.",
+            "- Designed and implemented scalable content migration pipelines using Node.js and Sanity CMS to migrate 1,000+ WordPress pages; architected reusable CMS schemas, optimized data transformation workflows, and ensured data integrity through validation and fault-tolerant processing.",
+            "- Owned the end-to-end mobile development lifecycle by designing the UI from scratch in Figma using Claude Design, building 5+ production-ready Flutter screens, and deploying the application to TestFlight via Xcode; leveraged Cursor, Claude, and GitHub Copilot to reduce development time by ~40% while maintaining production-quality code under tight deadlines.",
+            "- Led end-to-end frontend development of a chatbot analytics system using React + ECharts (4 visualizations); improved chat response time by 30% and enhanced UI responsiveness with React Bits animations.",
+          ],
+          color: "#1B9AAA",
+        },
+        {
+          title: "Software Development Engineer 2",
           company: "ProcDNA",
           company_url: "https://www.procdna.com/",
-          logo_path: "codeexcel.jpg",
-          duration: "July 2024-Present",
+          logo_path: "procdna_logo.png",
+          duration: "July 2024-May 2025",
           location: "Gurugram (On site)",
           description: "",
           features: [
-            "- Lead 3 junior interns, overseeing code reviews and performance management while driving innovative frontend solutions.",
-            "- Developed ProcDNA’s website using NextJS and Tailwind CSS, implemented Sanity CMS, integrated Oorwin and PyjamaHR tracking systems, and hosted via Amplify and Squarespace, achieving a 90% performance boost.",
-            "- Implemented intricate UI animations using the Framer Motion library, enhancing user engagement and experience across various devices like mobiles, laptops and desktops.",
+            "- Led and mentored 3 junior engineers; conducted code reviews, enforced frontend best practices, and drove delivery of scalable React solutions.",
+            "- Engineered ProcDNA's marketing website from scratch using Next.js, Tailwind CSS, and Sanity CMS, replacing a no-code solution with a headless CMS architecture that enabled non-technical teams to manage content independently; integrated Oorwin and PyjamaHR job portals, enhanced UX with Framer Motion animations, and deployed on AWS Amplify, achieving a 90% performance improvement.",
           ],
           color: "#0879bf",
         },
@@ -552,14 +562,13 @@ const experience = {
           title: "Software Development Engineer 1",
           company: "ProcDNA",
           company_url: "https://www.procdna.com/",
-          logo_path: "codeexcel.jpg",
+          logo_path: "procdna_logo.png",
           duration: "Jan 2023 - June 2024",
           location: "Gurugram (On site)",
           description: "",
           features: [
-            "- Designed and developed a website UI from scratch, continuously brainstorming and refining design ideas, including features like version control for TPPs, resulting in an 80% reduction in user manual effort.",
-            "- Successfully emancipated our operations from reliance on two external vendors, assuming complete ownership of transferring all company domain records from HostGator to Squarespace seamlessly, ensuring 0 downtime of emails and website.",
-            "- Spearheaded the end-to-end implementation of the Forgot Password feature with OTP authentication, from UI development to backend integration, saving 70% of user recovery time through automation and streamlined validation.",
+            "- Designed and built the entire website UI from scratch including version-controlled TPP management workflows, reducing manual user effort by 80%.",
+            "- Owned full-stack Forgot Password feature with OTP authentication (UI to backend); reduced user recovery time by 70% through automation and streamlined validation.",
           ],
           color: "#0879bf",
         },
@@ -567,7 +576,7 @@ const experience = {
           title: "Frontend Developer",
           company: "Crudcook",
           company_url: "https://www.crudcook.com/",
-          logo_path: "codeexcel.jpg",
+          logo_path: "crudcook_logo.png",
           duration: "Nov 2021-Feb 2022",
           location: "Chandigarh (Remote)",
           description: "",
@@ -587,11 +596,11 @@ const experience = {
           title: "Leetcode Profile",
           company: "Leetcode",
           company_url: "https://leetcode.com/shreya_bhatia/",
-          logo_path: "leetcode.png",
+          logo_path: "trophy.png",
           duration: "",
           location: "",
           description:
-            "Solved over 430 problems on coding platforms leetcode,was ranked 3,767 out of 20,877 in a global LeetCode Biweekly Contest (2022)",
+            "Solved over 490 problems on coding platforms leetcode,was ranked 3,767 out of 20,877 in a global LeetCode Biweekly Contest (2022)",
           features: [],
           color: "#181717",
         },
@@ -599,7 +608,7 @@ const experience = {
           title: "Geeks for Geeks Profile",
           company: "Geeks for Geeks",
           company_url: "https://auth.geeksforgeeks.org/user/shreya248",
-          logo_path: "gfg.png",
+          logo_path: "trophy.png",
           duration: "",
           location: "",
           description:
@@ -633,6 +642,10 @@ const contactPageData = {
       "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
     link: "https://medium.com/@shreya2408bhatia",
     avatar_image_path: "blog.svg",
+  },
+  phoneSection: {
+    title: "Phone Number",
+    subtitle: "+91 9467824220",
   },
 };
 

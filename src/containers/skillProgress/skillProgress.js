@@ -10,15 +10,20 @@ export default function StackProgress(props) {
       <Fade bottom duration={2000} distance="40px">
         <div className="skills-container">
           <div className="skills-bar">
-            <h1 className="skills-heading">Proficiency</h1>
+            <h1 className="skills-heading" style={{ color: theme.text }}>
+              Proficiency
+            </h1>
             {techStack.experience.map((exp) => {
               const progressStyle = {
                 width: exp.progressPercentage,
               };
               return (
                 <div className="skill">
-                  <p>{exp.Stack}</p>
-                  <div className="meter">
+                  <p style={{ color: theme.text }}>{exp.Stack}</p>
+                  <div
+                    className="meter"
+                    style={{ backgroundColor: theme.shadow }}
+                  >
                     <span style={progressStyle}></span>
                   </div>
                 </div>

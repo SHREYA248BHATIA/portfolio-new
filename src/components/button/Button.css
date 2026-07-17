@@ -19,9 +19,9 @@
   letter-spacing: 2px;
 }
 .main-button:hover {
-  /* background-color: #ffffff; */
-  /* color: black; */
   transition: ease-in 0.3s;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 .project-button {
   display: flex;

@@ -25,35 +25,34 @@ function App() {
 export default App;
 */
 
-
 // App.js
-import React from 'react';
+import React from "react";
 import "./App.css";
 import Main from "./containers/Main";
-import { ThemeProvider } from 'styled-components';
-import { useDarkMode } from './components/footer/useDarkMode';
-import { blueTheme, darkTheme } from './theme';
-import { GlobalStyles } from './global';
-import Toggle from './components/footer/Toggle';
+import { ThemeProvider } from "styled-components";
+import { useDarkMode } from "./components/footer/useDarkMode";
+import { blueTheme, darkTheme } from "./theme";
+import { GlobalStyles } from "./global";
+import Toggle from "./components/footer/Toggle";
 import Footer from "./components/footer/Footer";
+import CustomCursor from "./components/customCursor/CustomCursor";
 
 function App() {
   console.log("starting");
   const [theme, toggleTheme, componentMounted] = useDarkMode();
 
-  const themeMode = theme === 'light' ? blueTheme : darkTheme;
+  const themeMode = theme === "light" ? blueTheme : darkTheme;
   console.log(themeMode);
 
-
   if (!componentMounted) {
-    return <div />
-  };
-
+    return <div />;
+  }
 
   return (
     <ThemeProvider theme={themeMode}>
       <>
         <GlobalStyles />
+        <CustomCursor theme={themeMode} />
         <div>
           <Main theme={themeMode} />
         </div>

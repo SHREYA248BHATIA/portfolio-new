@@ -4,10 +4,21 @@
   border-radius: 10px;
   display: flex;
   flex-direction: row;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .experience-card-logo-div {
-  margin: 10px;
+  margin: 0 16px 0 0;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .experience-card-body-div {
@@ -20,12 +31,15 @@
 }
 
 .experience-card-logo {
-  width: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .experience-card-title {
-  font-family: "Google Sans Regular";
-  margin-top: 10px;
+  font-family: "Google Sans Medium";
+  font-size: 18px;
+  margin-top: 0px;
   margin-bottom: 2px;
   margin-left: 0px;
   margin-right: 7px;
@@ -34,6 +48,7 @@
 
 .experience-card-company {
   font-family: "Google Sans Regular";
+  font-weight: 600;
   margin: 0;
   text-align: left;
 }
@@ -75,24 +90,34 @@
   font-family: "Google Sans Regular";
 }
 
+.experience-card-feature-list {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
 .experience-card-feature {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  padding-left: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
   text-align: justify;
   margin-right: 20px;
+  line-height: 1.5;
   font-family: "Google Sans Regular";
+}
+
+.experience-card-feature-bullet {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
 }
 
 .experience-card-company > a {
   position: relative;
-  color: #000;
   text-decoration: none;
-}
-
-.experience-card-company > a:hover {
-  color: #000;
 }
 
 .experience-card-company > a:hover:before {
@@ -108,7 +133,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: currentColor;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -123,8 +148,8 @@
     text-align: center;
   }
 
-  .experience-card-logo {
-    width: 20px;
+  .experience-card-logo-div {
+    margin: 0 auto 10px auto;
   }
 
   .experience-card-heading-left {

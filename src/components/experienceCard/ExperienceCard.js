@@ -5,12 +5,20 @@ class ExperienceCard extends Component {
   render() {
     const experience = this.props.experience;
     const theme = this.props.theme;
+    const accentColor = experience["color"];
     return (
       <div
         className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
+        style={{
+          backgroundColor: "#A8A4F933",
+          borderLeft: `4px solid ${accentColor}`,
+          boxShadow: `2px 2px 6px ${theme.shadow}`,
+        }}
       >
-        <div className="experience-card-logo-div">
+        <div
+          className="experience-card-logo-div"
+          style={{ boxShadow: `2px 2px 4px ${theme.shadow}` }}
+        >
           <img
             className="experience-card-logo"
             src={require(`../../assests/images/${experience["logo_path"]}`)}
@@ -22,18 +30,16 @@ class ExperienceCard extends Component {
             <div className="experience-card-heading-left">
               <h3
                 className="experience-card-title"
-                style={{ color: theme.repotext }}
+                style={{ color: theme.text }}
               >
                 {experience["title"]}
               </h3>
-              <p
-                className="experience-card-company"
-                style={{ color: theme.repotext }}
-              >
+              <p className="experience-card-company">
                 <a
                   href={experience["company_url"]}
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ color: accentColor }}
                 >
                   {experience["company"]}
                 </a>
@@ -54,22 +60,31 @@ class ExperienceCard extends Component {
               </p>
             </div>
           </div>
-          <p
-            className="experience-card-description"
-            style={{ color: theme.repotext }}
-          >
-            {experience["description"]}
-          </p>
-          {experience["features"].map((feature) => {
-            return (
-              <p
-                className="experience-card-feature"
-                style={{ color: theme.repotext }}
-              >
-                {feature}
-              </p>
-            );
-          })}
+          {experience["description"] && (
+            <p
+              className="experience-card-description"
+              style={{ color: theme.text }}
+            >
+              {experience["description"]}
+            </p>
+          )}
+          <ul className="experience-card-feature-list">
+            {experience["features"].map((feature) => {
+              return (
+                <li
+                  className="experience-card-feature"
+                  style={{ color: theme.text }}
+                  key={feature}
+                >
+                  <span
+                    className="experience-card-feature-bullet"
+                    style={{ backgroundColor: accentColor }}
+                  ></span>
+                  {feature.replace(/^-\s*/, "")}
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     );

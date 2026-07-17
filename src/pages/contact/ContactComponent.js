@@ -11,6 +11,7 @@ import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
+const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {
@@ -35,6 +36,18 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
+                <h3
+                  className="contact-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {phoneSection["title"]}
+                </h3>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {phoneSection["subtitle"]}
+                </p>
                 <div className="resume-btn-div">
                   <Button
                     text="See My Resume"

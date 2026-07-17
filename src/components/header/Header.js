@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting } from "../../portfolio.js";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -18,12 +18,11 @@ class Header extends Component {
   render() {
     const theme = this.props.theme;
     console.log(theme);
-    const link = settings.isSplash ? "/splash" : "home";
     return (
       <Fade top duration={1000} distance="20px">
-        <div>
+        <div className="header-wrapper" style={{ backgroundColor: theme.body }}>
           <header className="header">
-            <NavLink to={link} tag={Link} className="logo">
+            <NavLink to="/" tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}

@@ -6,6 +6,18 @@
   font-family: "Google Sans Regular";
 }
 
+.accord-panel-title {
+  display: flex;
+  align-items: center;
+}
+
+.accord-panel-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
 @media (max-width: 768px) {
   .experience-accord {
     margin: 20px;

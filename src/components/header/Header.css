@@ -1,5 +1,11 @@
 /* header */
 
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .header {
   display: block;
   max-width: 90%;
