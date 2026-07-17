@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.aac9eaa2.chunk.css",
-    "main.js": "/portfolio-new/static/js/main.d39f1a00.chunk.js",
-    "main.js.map": "/portfolio-new/static/js/main.d39f1a00.chunk.js.map",
+    "main.css": "/portfolio-new/static/css/main.c5bd06d6.chunk.css",
+    "main.js": "/portfolio-new/static/js/main.0667c7f4.chunk.js",
+    "main.js.map": "/portfolio-new/static/js/main.0667c7f4.chunk.js.map",
     "runtime-main.js": "/portfolio-new/static/js/runtime-main.a86ab640.js",
     "runtime-main.js.map": "/portfolio-new/static/js/runtime-main.a86ab640.js.map",
-    "static/js/2.233f7dfa.chunk.js": "/portfolio-new/static/js/2.233f7dfa.chunk.js",
-    "static/js/2.233f7dfa.chunk.js.map": "/portfolio-new/static/js/2.233f7dfa.chunk.js.map",
+    "static/js/2.d5e95de0.chunk.js": "/portfolio-new/static/js/2.d5e95de0.chunk.js",
+    "static/js/2.d5e95de0.chunk.js.map": "/portfolio-new/static/js/2.d5e95de0.chunk.js.map",
     "index.html": "/portfolio-new/index.html",
-    "precache-manifest.7b2211a6a93bcb763b7a111bff4c556a.js": "/portfolio-new/precache-manifest.7b2211a6a93bcb763b7a111bff4c556a.js",
+    "precache-manifest.da8df5cdf6bf0c4813c79441db860366.js": "/portfolio-new/precache-manifest.da8df5cdf6bf0c4813c79441db860366.js",
     "service-worker.js": "/portfolio-new/service-worker.js",
-    "static/css/main.aac9eaa2.chunk.css.map": "/portfolio-new/static/css/main.aac9eaa2.chunk.css.map",
-    "static/js/2.233f7dfa.chunk.js.LICENSE.txt": "/portfolio-new/static/js/2.233f7dfa.chunk.js.LICENSE.txt",
+    "static/css/main.c5bd06d6.chunk.css.map": "/portfolio-new/static/css/main.c5bd06d6.chunk.css.map",
+    "static/js/2.d5e95de0.chunk.js.LICENSE.txt": "/portfolio-new/static/js/2.d5e95de0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio-new/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/portfolio-new/static/media/address_image.3b021f8f.svg",
     "static/media/android-icon-144x144.png": "/portfolio-new/static/media/android-icon-144x144.49e0ee73.png",
@@ -32,6 +32,8 @@
     "static/media/aust_logo.png": "/portfolio-new/static/media/aust_logo.ca462f63.png",
     "static/media/blog.svg": "/portfolio-new/static/media/blog.cad11309.svg",
     "static/media/blogs_image.svg": "/portfolio-new/static/media/blogs_image.b6b12c7d.svg",
+    "static/media/carnera_logo.png": "/portfolio-new/static/media/carnera_logo.6df2f6e1.png",
+    "static/media/certificate_badge.svg": "/portfolio-new/static/media/certificate_badge.ca71667b.svg",
     "static/media/cloud_infrastructure.svg": "/portfolio-new/static/media/cloud_infrastructure.dfcb7a58.svg",
     "static/media/codeInLogo.png": "/portfolio-new/static/media/codeInLogo.b3685be8.png",
     "static/media/codeexcel.jpg": "/portfolio-new/static/media/codeexcel.0c21ad95.jpg",
@@ -76,6 +78,7 @@
     "static/media/pixelmask_logo.png": "/portfolio-new/static/media/pixelmask_logo.9666b726.png",
     "static/media/pluralsight_logo.png": "/portfolio-new/static/media/pluralsight_logo.8be49345.png",
     "static/media/portfolio.gif": "/portfolio-new/static/media/portfolio.6e7dc5ad.gif",
+    "static/media/procdna_logo.png": "/portfolio-new/static/media/procdna_logo.b3f93088.png",
     "static/media/programmer.svg": "/portfolio-new/static/media/programmer.c1a95f73.svg",
     "static/media/projects_image.svg": "/portfolio-new/static/media/projects_image.f7964c6b.svg",
     "static/media/pwa.png": "/portfolio-new/static/media/pwa.bd5f4148.png",
@@ -88,13 +91,15 @@
     "static/media/talksCardBackAlt.svg": "/portfolio-new/static/media/talksCardBackAlt.b48e86c9.svg",
     "static/media/tasin.png": "/portfolio-new/static/media/tasin.ed3c02b4.png",
     "static/media/tencon.png": "/portfolio-new/static/media/tencon.16f0e7f3.png",
+    "static/media/trophy.png": "/portfolio-new/static/media/trophy.2339d820.png",
     "static/media/ui_ux_design.svg": "/portfolio-new/static/media/ui_ux_design.67a6a11c.svg",
+    "static/media/uiet_logo.png": "/portfolio-new/static/media/uiet_logo.0342b676.png",
     "static/media/undraw_workspace_s6wf.svg": "/portfolio-new/static/media/undraw_workspace_s6wf.23d0b5a7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a86ab640.js",
-    "static/js/2.233f7dfa.chunk.js",
-    "static/css/main.aac9eaa2.chunk.css",
-    "static/js/main.d39f1a00.chunk.js"
+    "static/js/2.d5e95de0.chunk.js",
+    "static/css/main.c5bd06d6.chunk.css",
+    "static/js/main.0667c7f4.chunk.js"
   ]
 }

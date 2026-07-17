@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea9b68a580d8062e4feb861dbe82dd99",
+    "revision": "a5f2f3298c1b0ca1a68767b6825cadb1",
     "url": "/portfolio-new/index.html"
   },
   {
-    "revision": "b74702cc1d4a79878817",
-    "url": "/portfolio-new/static/css/main.aac9eaa2.chunk.css"
+    "revision": "6661c03baacd57e5f8a7",
+    "url": "/portfolio-new/static/css/main.c5bd06d6.chunk.css"
   },
   {
-    "revision": "79b8870db8c979ca48fe",
-    "url": "/portfolio-new/static/js/2.233f7dfa.chunk.js"
+    "revision": "30b68bae475ed8c825c2",
+    "url": "/portfolio-new/static/js/2.d5e95de0.chunk.js"
   },
   {
     "revision": "eaaf63558baae456918a991a401208d7",
-    "url": "/portfolio-new/static/js/2.233f7dfa.chunk.js.LICENSE.txt"
+    "url": "/portfolio-new/static/js/2.d5e95de0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b74702cc1d4a79878817",
-    "url": "/portfolio-new/static/js/main.d39f1a00.chunk.js"
+    "revision": "6661c03baacd57e5f8a7",
+    "url": "/portfolio-new/static/js/main.0667c7f4.chunk.js"
   },
   {
     "revision": "9a0a0910c44d78f12251",
@@ -130,6 +130,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6b12c7d07e0569e771c8aedf81a7767",
     "url": "/portfolio-new/static/media/blogs_image.b6b12c7d.svg"
+  },
+  {
+    "revision": "6df2f6e1a08c2cfdf2587e152883ffb8",
+    "url": "/portfolio-new/static/media/carnera_logo.6df2f6e1.png"
+  },
+  {
+    "revision": "ca71667b6663e33005fb33d5c4616b86",
+    "url": "/portfolio-new/static/media/certificate_badge.ca71667b.svg"
   },
   {
     "revision": "dfcb7a585547c0b125d208b980d6f57f",
@@ -364,6 +372,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-new/static/media/portfolio.6e7dc5ad.gif"
   },
   {
+    "revision": "b3f9308858b5ab24d666e8c2d7a22933",
+    "url": "/portfolio-new/static/media/procdna_logo.b3f93088.png"
+  },
+  {
     "revision": "c1a95f7335cbfb730b937e19e8830a53",
     "url": "/portfolio-new/static/media/programmer.c1a95f73.svg"
   },
@@ -412,8 +424,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-new/static/media/tencon.16f0e7f3.png"
   },
   {
+    "revision": "2339d820ba9d6c7de980a3c2e76a6bcf",
+    "url": "/portfolio-new/static/media/trophy.2339d820.png"
+  },
+  {
     "revision": "67a6a11c47edafb87cf24da66afe3dca",
     "url": "/portfolio-new/static/media/ui_ux_design.67a6a11c.svg"
+  },
+  {
+    "revision": "0342b676be24b6cc9852ec0a43495594",
+    "url": "/portfolio-new/static/media/uiet_logo.0342b676.png"
   },
   {
     "revision": "23d0b5a7427c774476301ebdc9fb5478",
