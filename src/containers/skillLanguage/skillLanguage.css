@@ -45,6 +45,9 @@
 }
 
 @media (max-width: 768px) {
+  .lskills-heading {
+    text-align: center;
+  }
   .lskills-grid {
     justify-content: center;
   }

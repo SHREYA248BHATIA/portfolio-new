@@ -45,6 +45,9 @@
 }
 
 @media (max-width: 768px) {
+  .tool-heading {
+    text-align: center;
+  }
   .tool-grid {
     justify-content: center;
   }

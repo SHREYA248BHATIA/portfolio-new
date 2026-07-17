@@ -85,6 +85,9 @@
     line-height: 3rem;
     margin: 20px;
   }
+  .skills-heading {
+    text-align: center;
+  }
   .skills-image > img {
     margin-left: auto;
     order: 2;
