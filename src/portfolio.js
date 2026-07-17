@@ -257,72 +257,47 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "95%", //Insert relative proficiency in percentage
+      Stack: "Frontend/Design",
+      icon: "mdi:palette-outline",
+      description: "Building responsive, accessible UIs and design systems",
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%",
+      icon: "mdi:server",
+      description: "APIs, databases, and server-side architecture",
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%",
+      icon: "mdi:code-tags",
+      description: "Data structures, algorithms, and problem solving",
     },
   ],
 };
 
 //Language Skill
 const sLanguage = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Language / Framework Section
   experience: [
-    {
-      Stack: "React",
-      progressPercentage: "90%",
-    },
+    { Stack: "React", icon: "simple-icons:react", color: "#61DAFB" },
     {
       Stack: "React Native",
-      progressPercentage: "75%",
+      icon: "tabler:brand-react-native",
+      color: "#61DAFB",
     },
-    {
-      Stack: "NextJs",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "JavaScript",
-      progressPercentage: "88%",
-    },
-    {
-      Stack: "TypeScript",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "Redux",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "CSS/SASS",
-      progressPercentage: "95%",
-    },
-    {
-      Stack: "NodeJs",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "HTML5",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Tailwind CSS",
-      progressPercentage: "90%",
-    },
+    { Stack: "NextJs", icon: "akar-icons:nextjs-fill", color: "#626262" },
+    { Stack: "JavaScript", icon: "simple-icons:javascript", color: "#F7DF1E" },
+    { Stack: "TypeScript", icon: "devicon:typescript", color: "#3178c6" },
+    { Stack: "Redux", icon: "tabler:brand-redux", color: "#7749bd" },
+    { Stack: "CSS/SASS", icon: "simple-icons:sass", color: "#CC6699" },
+    { Stack: "NodeJs", icon: "devicon:nodejs", color: "#339933" },
+    { Stack: "HTML5", icon: "simple-icons:html5", color: "#E34F26" },
+    { Stack: "Tailwind CSS", icon: "file-icons:tailwind", color: "#38bdf8" },
     {
       Stack: "GraphQL",
-      progressPercentage: "60%",
+      icon: "devicon-plain:graphql-wordmark",
+      color: "#E10098",
     },
-    {
-      Stack: "C++",
-      progressPercentage: "80%",
-    },
+    { Stack: "C++", icon: "skill-icons:cpp", color: "#00599C" },
   ],
 };
 
@@ -330,69 +305,49 @@ const sLanguage = {
 const tools = {
   viewSkillBars: true,
   experience: [
-    {
-      Stack: "Git",
-      progressPercentage: "85%",
-    },
-    {
-      Stack: "Azure Services",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "AWS",
-      progressPercentage: "60%",
-    },
-
+    { Stack: "Git", icon: "devicon:git", color: "#F05032" },
+    { Stack: "Azure Services", icon: "devicon:azure", color: "#0089D6" },
+    { Stack: "AWS", icon: "skill-icons:aws-dark", color: "#FF9900" },
     {
       Stack: "MongoDB",
-      progressPercentage: "60%",
+      icon: "vscode-icons:file-type-mongo",
+      color: "#47A248",
     },
-    {
-      Stack: "MySQL",
-      progressPercentage: "70%",
-    },
-
+    { Stack: "MySQL", icon: "vscode-icons:file-type-mysql", color: "#4479A1" },
     {
       Stack: "Visual Studio Code",
-      progressPercentage: "95%",
+      icon: "logos:visual-studio-code",
+      color: "#007ACC",
     },
-
-    {
-      Stack: "Figma",
-      progressPercentage: "75%",
-    },
+    { Stack: "Figma", icon: "logos:figma", color: "#F24E1E" },
     {
       Stack: "DrawIo",
-      progressPercentage: "90%",
+      icon: "vscode-icons:file-type-drawio",
+      color: "#F08705",
     },
     {
       Stack: "Excalidraw",
-      progressPercentage: "80%",
+      icon: "vscode-icons:file-type-excalidraw",
+      color: "#6965DB",
     },
-    {
-      Stack: "JIRA",
-      progressPercentage: "85%",
-    },
-    {
-      Stack: "Vercel",
-      progressPercentage: "80%",
-    },
+    { Stack: "JIRA", icon: "devicon:jira-wordmark", color: "#0052CC" },
+    { Stack: "Vercel", icon: "skill-icons:vercel-light", color: "#000000" },
     {
       Stack: "Google Domains",
-      progressPercentage: "80%",
+      icon: "logos:google-domains-icon",
+      color: "#4285F4",
     },
     {
       Stack: "Squarespace",
-      progressPercentage: "78%",
+      icon: "simple-icons:squarespace",
+      color: "#000000",
     },
     {
       Stack: "Bitbucket",
-      progressPercentage: "80%",
+      icon: "vscode-icons:file-type-bitbucketpipeline",
+      color: "#0052CC",
     },
-    {
-      Stack: "Sanity",
-      progressPercentage: "75%",
-    },
+    { Stack: "Sanity", icon: "devicon:sanity", color: "#F03E2F" },
   ],
 };
 

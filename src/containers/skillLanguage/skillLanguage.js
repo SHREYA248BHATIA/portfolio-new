@@ -11,52 +11,20 @@ export default function SkillLanguage(props) {
         <div className="lskills-heading">
           <h1 style={{ color: theme.text }}>Language / Framework</h1>
         </div>
-        <div className="lskills-container">
-          <Fade left duration={1500}>
-            <div className="lskills-bar">
-              {sLanguage.experience
-                .slice(0, Math.ceil(sLanguage.experience.length / 2))
-                .map((exp) => {
-                  const progressStyle = {
-                    width: exp.progressPercentage,
-                  };
-                  return (
-                    <div className="lskill">
-                      <p style={{ color: theme.text }}>{exp.Stack}</p>
-                      <div
-                        className="lmeter"
-                        style={{ backgroundColor: theme.shadow }}
-                      >
-                        <span style={progressStyle}></span>
-                      </div>
-                    </div>
-                  );
-                })}
-            </div>
-          </Fade>
-
-          <Fade right duration={1500}>
-            <div className="lskills-bar">
-              {sLanguage.experience
-                .slice(Math.ceil(sLanguage.experience.length / 2))
-                .map((exp) => {
-                  const progressStyle = {
-                    width: exp.progressPercentage,
-                  };
-                  return (
-                    <div className="lskill">
-                      <p style={{ color: theme.text }}>{exp.Stack}</p>
-                      <div
-                        className="lmeter"
-                        style={{ backgroundColor: theme.shadow }}
-                      >
-                        <span style={progressStyle}></span>
-                      </div>
-                    </div>
-                  );
-                })}
-            </div>
-          </Fade>
+        <div className="lskills-grid">
+          {sLanguage.experience.map((exp) => {
+            return (
+              <div className="lskill-chip" key={exp.Stack}>
+                <span
+                  className="iconify lskill-chip-icon"
+                  data-icon={exp.icon}
+                  style={{ color: exp.color }}
+                  data-inline="false"
+                ></span>
+                <p style={{ color: theme.text }}>{exp.Stack}</p>
+              </div>
+            );
+          })}
         </div>
       </Fade>
     );
