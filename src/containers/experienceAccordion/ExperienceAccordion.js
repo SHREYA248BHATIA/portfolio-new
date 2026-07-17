@@ -3,10 +3,15 @@ import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
 import "./ExperienceAccordion.css";
 import { Accordion, Panel } from "baseui/accordion";
 
+const SECTION_ICONS = {
+  Work: "ic:baseline-work",
+  "Problem solving skills": "ic:baseline-emoji-events",
+};
+
 class ExperienceAccordion extends Component {
   render() {
     const theme = this.props.theme;
-    const sectionHeaderColor = "#A8A4F9CC";
+    const sectionHeaderColor = theme.headerColor;
     const overrides = {
       PanelContainer: {
         style: {
@@ -29,15 +34,17 @@ class ExperienceAccordion extends Component {
           paddingLeft: "24px",
           paddingRight: "24px",
           borderBottom: $expanded ? `1px solid ${theme.shadow}` : "none",
-          transition: "background-color 0.2s ease",
+          transition: "filter 0.2s ease",
           ":hover": {
-            color: theme.text,
+            filter: "brightness(1.08)",
           },
         }),
       },
       ToggleIcon: {
         style: {
           color: theme.text,
+          width: "22px",
+          height: "22px",
         },
       },
       Content: {
@@ -56,17 +63,23 @@ class ExperienceAccordion extends Component {
       <div className="experience-accord">
         <Accordion onChange={({ expanded }) => console.log(expanded)}>
           {this.props.sections.map((section) => {
-            const title = section["icon"] ? (
+            const iconName = SECTION_ICONS[section["title"]];
+            const title = (
               <div className="accord-panel-title">
-                <img
-                  className="accord-panel-icon"
-                  src={require(`../../assests/images/${section["icon"]}`)}
-                  alt=""
-                />
+                {iconName && (
+                  <span className="accord-panel-icon-badge">
+                    <span
+                      className="iconify"
+                      data-icon={iconName}
+                      data-inline="false"
+                    ></span>
+                  </span>
+                )}
                 <span>{section["title"]}</span>
+                <span className="accord-panel-count">
+                  {section["experiences"].length}
+                </span>
               </div>
-            ) : (
-              section["title"]
             );
             return (
               <Panel

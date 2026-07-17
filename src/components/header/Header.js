@@ -4,16 +4,6 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting } from "../../portfolio.js";
 
-const onMouseEnter = (event, color) => {
-  const el = event.target;
-  el.style.backgroundColor = color;
-};
-
-const onMouseOut = (event) => {
-  const el = event.target;
-  el.style.backgroundColor = "transparent";
-};
-
 class Header extends Component {
   render() {
     const theme = this.props.theme;
@@ -33,15 +23,19 @@ class Header extends Component {
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
             </label>
-            <ul className="menu" style={{ backgroundColor: theme.body }}>
+            <ul
+              className="menu"
+              style={{
+                backgroundColor: theme.body,
+                "--nav-hover-bg": theme.headerColor,
+              }}
+            >
               <li>
                 <NavLink
                   to="/home"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
                 >
                   Home
                 </NavLink>
@@ -52,8 +46,6 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
                 >
                   Skill
                 </NavLink>
@@ -64,8 +56,6 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
                 >
                   Education
                 </NavLink>
@@ -76,8 +66,6 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
                 >
                   Experience
                 </NavLink>
@@ -88,8 +76,6 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
                 >
                   Projects
                 </NavLink>
@@ -101,8 +87,6 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me
                 </NavLink>

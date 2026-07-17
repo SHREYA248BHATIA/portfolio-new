@@ -4,16 +4,19 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* border: 1px solid #d9dbdf; */
-  border-radius: 5px;
-  /* box-shadow: 5px 5px 5px #d9dbdf; */
+  border-radius: 10px;
+  overflow: hidden;
   margin-bottom: 30px;
   flex: 0 0 30%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
 }
 
 .cert-header {
   margin: 0px;
-  border-radius: 5px 5px 0px 0px;
 }
 
 .logo_img {

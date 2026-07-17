@@ -10,7 +10,7 @@ class ExperienceCard extends Component {
       <div
         className="experience-card"
         style={{
-          backgroundColor: "#A8A4F933",
+          backgroundColor: `${theme.imageHighlight}33`,
           borderLeft: `4px solid ${accentColor}`,
           boxShadow: `2px 2px 6px ${theme.shadow}`,
         }}

@@ -8,7 +8,13 @@ class CertificationCard extends Component {
     const theme = this.props.theme;
     return (
       <Fade bottom duration={2000} distance="20px">
-        <div className="cert-card" style={{border: `1px solid ${theme.shadow}`, boxShadow: `5px 5px 5px ${theme.shadow}`}}>
+        <div
+          className="cert-card"
+          style={{
+            border: `1px solid ${theme.shadow}`,
+            boxShadow: `4px 4px 10px ${theme.shadow}`,
+          }}
+        >
           <div className="content">
             <a
               href={certificate.certificate_link}
@@ -18,7 +24,7 @@ class CertificationCard extends Component {
               <div className="content-overlay"></div>
               <div
                 className="cert-header"
-                style={{ backgroundColor: certificate.color_code }}
+                style={{ backgroundColor: theme.headerColor }}
               >
                 <img
                   className="logo_img"
@@ -27,7 +33,10 @@ class CertificationCard extends Component {
                 />
               </div>
               <div className="content-details fadeIn-top">
-                <h3 className="content-title" style={{ color: theme.secondarytext }}>
+                <h3
+                  className="content-title"
+                  style={{ color: theme.secondarytext }}
+                >
                   Certificate
                 </h3>
               </div>

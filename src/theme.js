@@ -9,13 +9,13 @@ export const blueTheme = {
   dark: "#1A0533",
   shadow: "#ded9e8",
   secondaryText: "#8D7AA8",
-  imageHighlight: "#7B2CBF",
+  imageHighlight: "#6C63FF",
   svgfill: "#2E1065",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#4C1D95",
-  headerColor: "#7B2CBF77",
+  headerColor: "rgba(168, 164, 249, 0.8)",
   toggleBorder: "#FFF",
-  gradient: "linear-gradient(#4C1D95, #C4B5FD)",
+  gradient: "linear-gradient(#4C1D95, #6C63FF)",
 };
 
 export const brownTheme = {
@@ -136,13 +136,13 @@ export const darkTheme = {
   dark: "#000000",
   shadow: "rgba(0, 0, 0, 1)",
   secondaryText: "#868e96",
-  imageHighlight: "#7B2CBF",
+  imageHighlight: "#6C63FF",
   svgfill: "#2E1065",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#4C1D95",
-  headerColor: "#7B2CBF77",
+  headerColor: "#6C63FF77",
   toggleBorder: "#6B8096",
-  gradient: "linear-gradient(#1E1246, #3B1E6B)",
+  gradient: "linear-gradient(#1E1246, #4C1D95)",
 };
 
 export const chosenTheme = blueTheme;

@@ -9,13 +9,34 @@
 .accord-panel-title {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
-.accord-panel-icon {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  margin-right: 10px;
+.accord-panel-icon-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.accord-panel-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 7px;
+  margin-left: 10px;
+  border-radius: 11px;
+  background-color: rgba(255, 255, 255, 0.35);
+  font-size: 13px;
+  font-family: "Google Sans Regular";
 }
 
 @media (max-width: 768px) {

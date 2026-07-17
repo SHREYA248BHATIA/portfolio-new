@@ -24,14 +24,22 @@
   color: #868e96;
 }
 
-.header li a {
-  display: block;
-  padding: 20px 20px;
-  /* color: black; */
-  text-decoration: none;
+.header li {
+  padding: 12px 4px;
 }
 
-.header li a:hover,
+.header li a {
+  display: block;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.header li a:hover {
+  background-color: var(--nav-hover-bg);
+}
+
 .header .menu-btn:hover {
   /* background-color: #A6E1FA; */
 }
