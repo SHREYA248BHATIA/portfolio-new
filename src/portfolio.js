@@ -78,6 +78,13 @@ const skills = {
           },
         },
         {
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
           skillName: "NextJs",
           fontAwesomeClassname: "akar-icons:nextjs-fill",
           style: {
@@ -617,7 +624,6 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "shreya-photo.jpeg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Programming, DSA , Web, Cloud and Opensource Development.",
   },
@@ -627,16 +633,6 @@ const contactPageData = {
       "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
     link: "https://medium.com/@shreya2408bhatia",
     avatar_image_path: "blog.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle: "House no 220, sector 8, karnal",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/BE6sRSfd3Eadh1Es9",
-  },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 9467824220",
   },
 };
 
