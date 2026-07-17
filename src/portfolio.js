@@ -602,7 +602,7 @@ const experience = {
           description:
             "Solved over 490 problems on coding platforms leetcode,was ranked 3,767 out of 20,877 in a global LeetCode Biweekly Contest (2022)",
           features: [],
-          color: "#181717",
+          color: "#FFA116",
         },
         {
           title: "Geeks for Geeks Profile",
@@ -614,7 +614,7 @@ const experience = {
           description:
             "Solved over 500 problems on coding platforms geeks for geeks",
           features: [],
-          color: "#181717",
+          color: "#2F8D46",
         },
       ],
     },

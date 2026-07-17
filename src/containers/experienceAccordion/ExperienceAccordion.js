@@ -41,21 +41,27 @@ class ExperienceAccordion extends Component {
         }),
       },
       ToggleIcon: {
-        style: {
+        style: ({ $expanded }) => ({
           color: theme.text,
           width: "22px",
           height: "22px",
-        },
+          transform: $expanded ? "rotate(180deg)" : "rotate(0deg)",
+          transition: "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+        }),
       },
       Content: {
-        style: {
+        style: ({ $expanded }) => ({
           backgroundColor: theme.body,
           color: theme.text,
           paddingLeft: "20px",
           paddingRight: "20px",
           paddingTop: "20px",
           borderBottom: "none",
-        },
+          opacity: $expanded ? 1 : 0,
+          transform: $expanded ? "translateY(0)" : "translateY(-12px)",
+          transition:
+            "opacity 0.35s ease, transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), height 0.3s ease",
+        }),
       },
     };
 
