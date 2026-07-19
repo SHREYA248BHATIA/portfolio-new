@@ -28,3 +28,14 @@
   background-color: rgba(134, 142, 150, 0.18);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
+
+@media (max-width: 768px) {
+  .software-skills-main-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .dev-icons {
+    justify-content: center;
+  }
+}

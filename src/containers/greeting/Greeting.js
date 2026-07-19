@@ -5,7 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
-import girlOnLaptop from "../../assests/images/girl1.svg";
+import shreyaProfessional from "../../assests/images/shreya_professional.jpg";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -52,7 +52,11 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img src={girlOnLaptop} alt="Girl on laptop" />
+            <img
+              src={shreyaProfessional}
+              alt="Shreya Bhatia"
+              className="greeting-profile-photo"
+            />
           </div>
         </div>
       </div>

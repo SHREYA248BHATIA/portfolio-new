@@ -22,7 +22,8 @@
 }
 
 .greeting-main > * {
-  flex: 1;
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .button-greeting-div {
@@ -34,7 +35,6 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -54,10 +54,23 @@
 }
 .greeting-image-div {
   display: flex;
+  align-items: center;
 }
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+}
+.greeting-profile-photo {
+  width: auto;
+  height: auto;
+  max-width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 768px) {
+  .greeting-profile-photo {
+    max-width: 220px;
+  }
 }
 
 /* Media Query */
