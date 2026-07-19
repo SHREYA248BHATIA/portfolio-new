@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.917c6ae4.chunk.css",
-    "main.js": "/portfolio-new/static/js/main.261adb20.chunk.js",
-    "main.js.map": "/portfolio-new/static/js/main.261adb20.chunk.js.map",
+    "main.css": "/portfolio-new/static/css/main.20b27052.chunk.css",
+    "main.js": "/portfolio-new/static/js/main.833f58ce.chunk.js",
+    "main.js.map": "/portfolio-new/static/js/main.833f58ce.chunk.js.map",
     "runtime-main.js": "/portfolio-new/static/js/runtime-main.a86ab640.js",
     "runtime-main.js.map": "/portfolio-new/static/js/runtime-main.a86ab640.js.map",
-    "static/js/2.ff3076b4.chunk.js": "/portfolio-new/static/js/2.ff3076b4.chunk.js",
-    "static/js/2.ff3076b4.chunk.js.map": "/portfolio-new/static/js/2.ff3076b4.chunk.js.map",
+    "static/js/2.66f9d197.chunk.js": "/portfolio-new/static/js/2.66f9d197.chunk.js",
+    "static/js/2.66f9d197.chunk.js.map": "/portfolio-new/static/js/2.66f9d197.chunk.js.map",
     "index.html": "/portfolio-new/index.html",
-    "precache-manifest.852a91b0cb2e92a89f92f99d0a6aa3e0.js": "/portfolio-new/precache-manifest.852a91b0cb2e92a89f92f99d0a6aa3e0.js",
+    "precache-manifest.c006c719aae430aa0927653bca9610d1.js": "/portfolio-new/precache-manifest.c006c719aae430aa0927653bca9610d1.js",
     "service-worker.js": "/portfolio-new/service-worker.js",
-    "static/css/main.917c6ae4.chunk.css.map": "/portfolio-new/static/css/main.917c6ae4.chunk.css.map",
-    "static/js/2.ff3076b4.chunk.js.LICENSE.txt": "/portfolio-new/static/js/2.ff3076b4.chunk.js.LICENSE.txt",
+    "static/css/main.20b27052.chunk.css.map": "/portfolio-new/static/css/main.20b27052.chunk.css.map",
+    "static/js/2.66f9d197.chunk.js.LICENSE.txt": "/portfolio-new/static/js/2.66f9d197.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio-new/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/portfolio-new/static/media/address_image.3b021f8f.svg",
     "static/media/android-icon-144x144.png": "/portfolio-new/static/media/android-icon-144x144.49e0ee73.png",
@@ -84,6 +84,7 @@
     "static/media/pwa.png": "/portfolio-new/static/media/pwa.bd5f4148.png",
     "static/media/responsive.svg": "/portfolio-new/static/media/responsive.ad28958f.svg",
     "static/media/shreya-photo.jpeg": "/portfolio-new/static/media/shreya-photo.dfc9024f.jpeg",
+    "static/media/shreya_professional.jpg": "/portfolio-new/static/media/shreya_professional.27408d1e.jpg",
     "static/media/skill.svg": "/portfolio-new/static/media/skill.34409398.svg",
     "static/media/stanford_logo.png": "/portfolio-new/static/media/stanford_logo.da0e7c80.png",
     "static/media/sun.svg": "/portfolio-new/static/media/sun.4db24c0e.svg",
@@ -98,8 +99,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a86ab640.js",
-    "static/js/2.ff3076b4.chunk.js",
-    "static/css/main.917c6ae4.chunk.css",
-    "static/js/main.261adb20.chunk.js"
+    "static/js/2.66f9d197.chunk.js",
+    "static/css/main.20b27052.chunk.css",
+    "static/js/main.833f58ce.chunk.js"
   ]
 }
